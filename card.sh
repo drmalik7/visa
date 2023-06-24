@@ -11,7 +11,7 @@ echo Welcome, how can we help you
 echo Help is guaranteed
 echo what city are you from?
 read city
-echo your $city has been located $name
 sleep 5
+echo $city has been located $nam
 echo $name please meet the supervisor for $city
 
