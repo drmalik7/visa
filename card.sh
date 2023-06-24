@@ -6,4 +6,5 @@ sleep 5
 echo Please enter passcode
 read -s code
 echo $name your passcode is verified
-echo Welcome, how can we help
+echo Welcome, how can we help you
+echo Help is guaranteed
