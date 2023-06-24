@@ -1,3 +1,4 @@
+#!/bin/bash
 echo Secure details only pleaase
 echo Please input username
 read name
