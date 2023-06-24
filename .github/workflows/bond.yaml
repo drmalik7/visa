@@ -1,0 +1,16 @@
+name: shell commands
+
+on: push
+
+jobs: 
+    terraform-workflow:
+        runs-on: ubuntu-latest
+        steps:
+          - name: checkout
+            uses: actions/checkout/@v1
+          - name: Set Terraform
+            uses: hashicorp/setup-terraform@v2
+          - name: Terraform init 
+            run: terraform init
+          - name: Terraform validate
+            run: terrafiorm validate
