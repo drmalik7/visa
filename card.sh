@@ -9,3 +9,9 @@ read -s code
 echo $name your passcode is verified
 echo Welcome, how can we help you
 echo Help is guaranteed
+echo what city are you from?
+read city
+sleep 5
+echo $city has been located $nam
+echo $name please meet the supervisor for $city
+
